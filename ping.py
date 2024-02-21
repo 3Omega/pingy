@@ -14,8 +14,8 @@ def ping_website(url):
 
 if __name__ == "__main__":
     website_urls = [
-        "https://para-i1ne.onrender.com/ud",  # Replace with your website URLs
-        "https://fantasyflex.onrender.com/ud",
+        "https://example.com/ud",  # Replace with your website URLs
+        "https://more-exapmle.com/ud",
         
     ]
 
@@ -23,4 +23,3 @@ if __name__ == "__main__":
         for url in website_urls:
             ping_website(url)
         time.sleep(300)  # Sleep for 5 minutes (300 seconds)
-what is a github description for this script
